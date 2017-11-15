@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
@@ -286,14 +287,43 @@
             </td>
     </table>
     <button id="cos">Open Modal</button>
+    <!--<div id="myModal" class="modal">-->
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
+            <div class="design modal" id="myModal">
+                <div class="new__task">
+                    <span class="close">&times;</span>
+                    <label>Title</label>
+                    <input name="Title" placeholder="Title:"/><br/>
+                    <label>Description</label>
+                    <textarea class="form1" rows="5" cols="22" placeholder="description"></textarea>
+                    <label>Status</label>
+                    <select name="status">
+                        <option selected="selected">not urgent</option>
+                        <option>urgent</option>
+                        <option>important</option>
+                        <option>not important</option>
+                    </select><br>
+                    <input type="checkbox">Show in Be Focused<br>
+                    <input type="checkbox">Due Date
+                    <input type="date">
+                    <input type="time"><br>
+                    <label>Flemind</label>
+                    <select>
+                        <option>1</option>
+                        <option>2t</option>
+                        <option>3</option>
+                    </select><br>
+                    <label>Move to Urgent</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select><br>
+                    <label>Tags</label>
+                    <input type="text">
+                    <button type="button">Add Task</button>
+                </div>
+            </div>
         </div>
 
     </div>

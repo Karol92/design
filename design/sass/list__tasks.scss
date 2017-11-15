@@ -2,7 +2,6 @@
 }
 .list__style{
   text-decoration: none;
-  @extend .font__global;
   color: black;
   font-size: 12px;
   &:hover{

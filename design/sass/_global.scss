@@ -2,12 +2,12 @@
   font-family: 'Barlow', sans-serif;
 }
 .design{
-  height: 700px;
-  width: 50%;
+  height: 500px;
+  width: 38%;
   background-color: white;
-  margin: 100px auto;
   padding: 15px;
   box-shadow: 50px 100px 150px #2c3e50;
+  margin: 100px auto;
 }
 th .table__notes{
   border: 3px solid black;
@@ -17,15 +17,21 @@ th .table__notes{
 }
 body{
   background-color: #bce1ff;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+html {
+  font-family: 'Barlow', sans-serif;
 }
 table{
   border-collapse: collapse;
-  height: 200px;
-  min-width: 200px;
-  padding-left: 15px;
-  padding-top: 15px;
+  //height: 200px;
+  //min-width: 200px;
+  //padding-left: 15px;
+  //padding-top: 15px;
   float: left;
-  margin:100px 20px;
+  //margin:100px 20px;
+  margin-left: 20px;
 }
 td{
   border: 3px solid black;
