@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="js/_JavaScript.js"></script>
+    <script type="text/javascript" src="js/_jQuery.js"></script>
+
     <title></title>
 </head>
 <body>
@@ -25,38 +27,12 @@
             </th>
             <td class="td__task">
                 <div class="box">
-                    <ul class="list__tasks">
-                        <li>
-                            <input type="checkbox" checked="checked">
-                            <a class="list__style" href="www.facebook.pl">Zadanie 1
+                    <ul class="connectedSortable sortable1">
+                        <li class="list__tasks">
+                            <input type="checkbox">
+                            <a class="icon__comment" href="www.google.pl">
+                                <i class="fa fa-comment-o"></i>
                             </a>
-                            <a class="icon__comment" href="#comment">
-                            <i class="fa fa-comment-o"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
                         </li>
                         <li>
                             <input type="checkbox">
@@ -94,34 +70,14 @@
                 </div>
             </td>
             <td class="td__task">
-                <p class="box">
-                </p>
-            </td>
-        <tr>
-            <th class="vertical">
-                <div class="text__vertical">not important</div>
-            </th>
-            <td class="td__task">
-                <p class="box">
-                </p>
-            </td>
-            <td class="td__task">
-                <p class="box">
-                </p>
-            </td>
-        </tr>
-    </table>
-    <table class="table__notes">
-        <tr>
-            <th class="horizontal">Notes</th>
-        </tr>
-        <tr>
-            <td class="notes">
-                <div class="scroll">
-                    <ul class="list__tasks">
-                        <li>
+                <div class="box">
+                    <ul class="connectedSortable sortable3 ">
+                        <li class="list__tasks">
                             <input type="checkbox" checked="checked">
                             <a class="list__style" href="www.facebook.pl">Zadanie 1
+                            </a>
+                            <a class="icon__comment" href="#comment">
+                                <i class="fa fa-comment-o"></i>
                             </a>
                         </li>
                         <li>
@@ -156,119 +112,43 @@
                             <input type="checkbox">
                             <a class="list__style" href="www.facebook.pl">Task 1</a>
                         </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
+                    </ul>
+                </div>
+            </td>
+        <tr>
+            <th class="vertical">
+                <div class="text__vertical">not important</div>
+            </th>
+            <td class="td__task">
+                <div class="box">
+                    <ul class="connectedSortable sortable3 ">
+                        <li class="list__tasks">
                         </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
+                    </ul>
+                </div>
+            </td>
+            <td class="td__task">
+                <div class="box">
+                    <ul class="connectedSortable sortable3">
+                        <li class="list__tasks">
                         </li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table class="table__notes">
+        <tr>
+            <th class="horizontal">Notes</th>
+        </tr>
+        <tr>
+            <td class="notes">
+                <div class="scroll">
+                    <ul class="list__tasks sortable2 connectedSortable">
                         <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <a class="list__style" href="www.facebook.pl">Task 1</a>
+                            <input type="checkbox" checked="checked">
+                            <a class="list__style" href="www.facebook.pl">Zadanie 1
+                            </a>
                         </li>
                         <li>
                             <input type="checkbox">
@@ -289,46 +169,44 @@
     <button id="cos">Open Modal</button>
     <!--<div id="myModal" class="modal">-->
 
-            <div class="design modal" id="myModal">
-                <div class="new__task">
-                    <span class="close">&times;</span>
-                    <label>Title</label>
-                    <input name="Title" placeholder="Title:"/><br/>
-                    <label>Description</label>
-                    <textarea class="form1" rows="5" cols="22" placeholder="description"></textarea>
-                    <label>Status</label>
-                    <select name="status">
-                        <option selected="selected">not urgent</option>
-                        <option>urgent</option>
-                        <option>important</option>
-                        <option>not important</option>
-                    </select><br>
-                    <input type="checkbox">Show in Be Focused<br>
-                    <input type="checkbox">Due Date
-                    <input type="date">
-                    <input type="time"><br>
-                    <label>Flemind</label>
-                    <select>
-                        <option>1</option>
-                        <option>2t</option>
-                        <option>3</option>
-                    </select><br>
-                    <label>Move to Urgent</label>
-                    <select>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select><br>
-                    <label>Tags</label>
-                    <input type="text">
-                    <button type="button">Add Task</button>
-                </div>
-            </div>
+    <div class="design modal" id="myModal">
+        <div class="new__task">
+            <span class="close">&times;</span>
+            <label>Title</label>
+            <input name="Title" placeholder="Title:"/><br/>
+            <label>Description</label>
+            <textarea class="form1" rows="5" cols="22" placeholder="description"></textarea>
+            <label>Status</label>
+            <select name="status">
+                <option selected="selected">not urgent</option>
+                <option>urgent</option>
+                <option>important</option>
+                <option>not important</option>
+            </select><br>
+            <input type="checkbox">Show in Be Focused<br>
+            <input type="checkbox">Due Date
+            <input type="date">
+            <input type="time"><br>
+            <label>Flemind</label>
+            <select>
+                <option>1</option>
+                <option>2t</option>
+                <option>3</option>
+            </select><br>
+            <label>Move to Urgent</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select><br>
+            <label>Tags</label>
+            <input type="text">
+            <button type="button">Add Task</button>
         </div>
-
     </div>
 </div>
+
+</div>
+</div>
 </body>
-
-
 </html>
