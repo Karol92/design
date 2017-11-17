@@ -7,9 +7,15 @@ $(function () {
 window.onload = function () {
     $("#cos, i").click(function () {
         $("#myModal").show();
+        $('.new__task').children("button").text("Add task");
     });
+
     $(".close").click(function () {
         $("#myModal").hide();
+    });
+    $("i.fa.fa-pencil").click(function () {
+        $("#myModal").show();
+        $('.new__task').children("button").text("Edit");
     });
 };
 $(document).ready(function () {
@@ -18,15 +24,3 @@ $(document).ready(function () {
     });
 });
 
-// $("input[type=checkbox]").click(function () {
-//     $("a").toggle();
-//
-// });
-
-
-$( function() {
-    $( ".controlgroup" ).controlgroup()
-    $( ".controlgroup-vertical" ).controlgroup({
-        "direction": "vertical"
-    });
-} );

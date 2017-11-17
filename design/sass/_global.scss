@@ -1,7 +1,8 @@
-.font__global{
+.font__global {
   font-family: 'Barlow', sans-serif;
 }
-.design{
+
+.design {
   height: 500px;
   width: 800px;
   background-color: white;
@@ -9,49 +10,47 @@
   box-shadow: 50px 100px 150px #2c3e50;
   margin: 100px auto;
 }
-th .table__notes{
+
+th .table__notes {
   border: 3px solid black;
   width: 200px;
   height: 50px;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #bce1ff;
   font-family: 'Barlow', sans-serif;
   margin: 0;
 }
-html {
-  font-family: 'Barlow', sans-serif;
-}
-table{
+
+table {
   border-collapse: collapse;
-  //height: 200px;
-  //min-width: 200px;
-  //padding-left: 15px;
-  //padding-top: 15px;
   float: left;
-  //margin:100px 20px;
   margin-left: 20px;
   box-shadow: 10px 10px 15px #2c3e50;
 }
-td{
+
+td {
   border: 3px solid black;
   max-width: 200px;
   max-height: 200px;
   overflow: auto;
   padding: 0;
 }
-tr{
+
+tr {
   background-color: white;
   margin: 30px;
   box-sizing: border-box;
   max-height: 200px;
 }
-th{
+
+th {
   background-color: #ffe97c;
-  @extend .font__global;
 }
-li{
+
+li {
   width: 100%;
   height: 20px;
   background-color: #e3e6e1;
@@ -59,21 +58,23 @@ li{
   border-bottom: inset;
   cursor: pointer;
 }
-ul{
+
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.icon__comment{
+
+.icon__comment {
   float: right;
   color: black;
   cursor: pointer;
-  &:hover{
+  &:hover {
     color: #18bc9c;
   }
 }
 
-button{
+button {
   width: 100px;
   height: 30px;
   background-color: #18bc9c;
@@ -83,11 +84,11 @@ button{
   @extend .font__global;
   font-weight: 700;
 }
-.fa{
+
+.fa {
   float: right;
-  &:hover{
+  &:hover {
     color: #18bc9c;
     cursor: pointer;
   }
-
 }

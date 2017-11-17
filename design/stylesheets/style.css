@@ -1,9 +1,9 @@
 /* line 1, ../sass/_global.scss */
-.font__global, th, button {
+.font__global, button {
   font-family: 'Barlow', sans-serif;
 }
 
-/* line 4, ../sass/_global.scss */
+/* line 5, ../sass/_global.scss */
 .design {
   height: 500px;
   width: 800px;
@@ -13,7 +13,7 @@
   margin: 100px auto;
 }
 
-/* line 12, ../sass/_global.scss */
+/* line 14, ../sass/_global.scss */
 th .table__notes {
   border: 3px solid black;
   width: 200px;
@@ -21,19 +21,14 @@ th .table__notes {
   box-sizing: border-box;
 }
 
-/* line 18, ../sass/_global.scss */
+/* line 21, ../sass/_global.scss */
 body {
   background-color: #bce1ff;
   font-family: 'Barlow', sans-serif;
   margin: 0;
 }
 
-/* line 23, ../sass/_global.scss */
-html {
-  font-family: 'Barlow', sans-serif;
-}
-
-/* line 26, ../sass/_global.scss */
+/* line 27, ../sass/_global.scss */
 table {
   border-collapse: collapse;
   float: left;
@@ -41,7 +36,7 @@ table {
   box-shadow: 10px 10px 15px #2c3e50;
 }
 
-/* line 37, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 td {
   border: 3px solid black;
   max-width: 200px;
@@ -50,7 +45,7 @@ td {
   padding: 0;
 }
 
-/* line 44, ../sass/_global.scss */
+/* line 42, ../sass/_global.scss */
 tr {
   background-color: white;
   margin: 30px;
@@ -58,12 +53,12 @@ tr {
   max-height: 200px;
 }
 
-/* line 50, ../sass/_global.scss */
+/* line 49, ../sass/_global.scss */
 th {
   background-color: #ffe97c;
 }
 
-/* line 54, ../sass/_global.scss */
+/* line 53, ../sass/_global.scss */
 li {
   width: 100%;
   height: 20px;
@@ -80,18 +75,18 @@ ul {
   list-style-type: none;
 }
 
-/* line 67, ../sass/_global.scss */
+/* line 68, ../sass/_global.scss */
 .icon__comment {
   float: right;
   color: black;
   cursor: pointer;
 }
-/* line 71, ../sass/_global.scss */
+/* line 72, ../sass/_global.scss */
 .icon__comment:hover {
   color: #18bc9c;
 }
 
-/* line 76, ../sass/_global.scss */
+/* line 77, ../sass/_global.scss */
 button {
   width: 100px;
   height: 30px;
@@ -102,11 +97,11 @@ button {
   font-weight: 700;
 }
 
-/* line 86, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .fa {
   float: right;
 }
-/* line 88, ../sass/_global.scss */
+/* line 90, ../sass/_global.scss */
 .fa:hover {
   color: #18bc9c;
   cursor: pointer;
@@ -186,29 +181,19 @@ button {
 .modal {
   margin-top: auto;
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   padding-top: 160px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: black;
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.5);
-  /* Black w/ opacity */
 }
 
-/* Modal Content */
-/* line 27, ../sass/_new__task.scss */
+/* line 26, ../sass/_new__task.scss */
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -217,8 +202,7 @@ button {
   width: 20%;
 }
 
-/* The Close Button */
-/* line 36, ../sass/_new__task.scss */
+/* line 34, ../sass/_new__task.scss */
 .close {
   color: #000000;
   float: right;
@@ -228,7 +212,7 @@ button {
   margin-right: -6px;
 }
 
-/* line 45, ../sass/_new__task.scss */
+/* line 43, ../sass/_new__task.scss */
 .close:hover,
 .close:focus {
   color: #000;
