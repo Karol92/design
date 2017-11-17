@@ -5,7 +5,7 @@ $(function () {
 });
 
 window.onload = function () {
-    $("#cos, li:not(input [type=checkbox])").click(function () {
+    $("#cos, i").click(function () {
         $("#myModal").show();
     });
     $(".close").click(function () {
@@ -22,3 +22,11 @@ $(document).ready(function () {
 //     $("a").toggle();
 //
 // });
+
+
+$( function() {
+    $( ".controlgroup" ).controlgroup()
+    $( ".controlgroup-vertical" ).controlgroup({
+        "direction": "vertical"
+    });
+} );

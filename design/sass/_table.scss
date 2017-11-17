@@ -18,10 +18,10 @@
   white-space:nowrap;
 }
 .td__task{
-  height: 200px;
+  max-height: 200px;
   width: 200px;
-  overflow: auto;
   >.box{
-    max-height: 200px;
+    overflow: auto;
+    height: 200px;
   }
 }

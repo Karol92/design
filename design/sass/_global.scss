@@ -45,6 +45,7 @@ tr{
   background-color: white;
   margin: 30px;
   box-sizing: border-box;
+  max-height: 200px;
 }
 th{
   background-color: #ffe97c;
@@ -56,6 +57,7 @@ li{
   background-color: #e3e6e1;
   margin-top: 0;
   border-bottom: inset;
+  cursor: pointer;
 }
 ul{
   margin: 0;
@@ -81,6 +83,11 @@ button{
   @extend .font__global;
   font-weight: 700;
 }
-p{
+.fa{
+  float: right;
+  &:hover{
+    color: #18bc9c;
+    cursor: pointer;
+  }
 
 }

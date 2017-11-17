@@ -1,8 +1,8 @@
 .notes {
   height: 400px;
   width: 200px;
-  overflow: auto;
   >.scroll{
+    overflow: auto;
     height: 408px;
   }
 }
