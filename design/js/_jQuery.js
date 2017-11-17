@@ -17,10 +17,20 @@ window.onload = function () {
         $("#myModal").show();
         $('.new__task').children("button").text("Edit");
     });
+
+    $("button.add_task").click(function () {
+        var title = $("input[name='Title']").val();
+        alert("Tytul to: "+title);
+
+    });
+
+
+
+
 };
 $(document).ready(function () {
     $("input[type=checkbox]").click(function () {
-        $("label").toggle();
+        $("#title1").toggle();
     });
 });
 
