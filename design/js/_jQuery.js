@@ -20,17 +20,15 @@ window.onload = function () {
 
     $("button.add_task").click(function () {
         var title = $("input[name='Title']").val();
-        alert("Tytul to: "+title);
+        alert("Dodano Taska o tytule: " + title);
 
     });
-
-
 
 
 };
-$(document).ready(function () {
-    $("input[type=checkbox]").click(function () {
-        $("#title1").toggle();
-    });
-});
+// $(document).ready(function () {
+//     $("input[type=checkbox]").click(function () {
+//         $("#title1").toggle();
+//     });
+// });
 
